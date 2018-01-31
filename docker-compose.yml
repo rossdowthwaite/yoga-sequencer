@@ -1,0 +1,26 @@
+version: "2"
+services:
+  yoga_sequencer:
+    container_name: yoga_sequencer
+    restart: always
+    build: .
+    ports:
+      - "3002:3002"
+
+  mongo-seed:
+    build:
+      context: .
+      dockerfile: mongo-seed/Dockerfile
+
+  mongo:
+    container_name: mongo_seq
+    image: mongo
+    volumes:
+      - ./data:/data/db
+    ports:
+      - "27018:27017"
+
+networks:
+  default:
+    external:
+      name: yogaservice_default

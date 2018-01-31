@@ -1,0 +1,39 @@
+[{
+		"name": "Forest Rain Child",
+		"slug": "forest-rain-child",
+		"sequence": [{
+				"name": "Downward-Facing dog",
+				"description": "Yoga-move!"
+			},
+			{
+				"name": "Downward-Facing dog",
+				"description": "Yoga-move!"
+			},
+			{
+				"name": "Downward-Facing dog",
+				"description": "Yoga-move!"
+			}
+		],
+		"difficulty": "Beginner",
+		"duration": 1234
+	},
+	{
+		"name": "Feather Baby",
+		"slug": "feather-baby",
+		"sequence": [{
+				"name": "Downward-Facing dog",
+				"description": "Yoga-move!"
+			},
+			{
+				"name": "Downward-Facing dog",
+				"description": "Yoga-move!"
+			},
+			{
+				"name": "Downward-Facing dog",
+				"description": "Yoga-move!"
+			}
+		],
+		"difficulty": "Beginner",
+		"duration": 1234
+	}
+]
